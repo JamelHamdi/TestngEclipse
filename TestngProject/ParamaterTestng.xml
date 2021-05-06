@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test">
+    <test verbose="2" preserve-order="true" name="/Users/jamel/eclipse-workspace/TestngProject/src/main/java/smokeTest.java">
+        <parameter name="env" value="QA"></parameter>
+        <parameter name="browserName" value="safari"></parameter>
+        <parameter name="url" value="https://www.pierreetvacances.com/"></parameter>
+        <classes>
+            <class name="smokeTest"></class>
+        </classes>
+    </test>
+
+</suite>
